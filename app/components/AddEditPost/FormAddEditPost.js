@@ -106,7 +106,7 @@ function FormAddEditPost(props) {
 }
 
 FormAddEditPost.propTypes = {
-  post: PropTypes.oneOfType([PropTypes.array, PropTypes.bool]),
+  post: PropTypes.object,
   addItemPost: PropTypes.func,
   editItemPost: PropTypes.func,
   onHide: PropTypes.func,

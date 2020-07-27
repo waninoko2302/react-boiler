@@ -28,7 +28,7 @@ function ListPosts({ getListPost, posts }) {
         </Button>
       </AddButton>
       <FormAddEditPost show={modalShow} onHide={() => setModalShow(false)} />
-      <Table celled>
+      <Table celled key={posts.id}>
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell>STT</Table.HeaderCell>
