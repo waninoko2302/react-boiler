@@ -1,19 +1,15 @@
 /*
- * HomePage Messages
+ * Footer Messages
  *
- * This contains all the text for the HomePage component.
+ * This contains all the text for the Footer component.
  */
 import { defineMessages } from 'react-intl';
 
-export const scope = 'boilerplate.components.Header';
+export const scope = 'boilerplate.components.Footer';
 
 export default defineMessages({
-  home: {
-    id: `${scope}.home`,
-    defaultMessage: 'Home',
-  },
-  features: {
-    id: `${scope}.features`,
-    defaultMessage: 'Features',
+  licenseMessage: {
+    id: `${scope}.license.message`,
+    defaultMessage: 'List Postsssssss',
   },
 });

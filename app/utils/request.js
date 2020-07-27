@@ -1,3 +1,9 @@
+// import axios from 'axios';
+// export function reqListPosts() {
+//     let res =  axios.get(`https://jsonplaceholder.typicode.com/posts`);
+//     return res
+// }
+
 /**
  * Parses the JSON returned by a network request
  *
@@ -37,7 +43,7 @@ function checkStatus(response) {
  *
  * @return {object}           The response data
  */
-export default function request(url, options) {
+export function reqListPosts(url, options) {
   return fetch(url, options)
     .then(checkStatus)
     .then(parseJSON);
