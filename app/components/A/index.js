@@ -4,12 +4,11 @@
 
 import styled from 'styled-components';
 
-const A = styled.a`
-  color: #41addd;
-
-  &:hover {
-    color: #6cc0e5;
-  }
+const A = styled.span`
+  display: block;
+  font-size: 50px;
+  color: green;
+  background-color: black;
 `;
 
 export default A;
