@@ -4,11 +4,11 @@
 
 import styled from 'styled-components';
 
-const A = styled.span`
+const A = styled.div`
+  text-align: center;
   display: block;
-  font-size: 50px;
+  font-size: 20px;
   color: green;
-  background-color: black;
 `;
 
 export default A;
