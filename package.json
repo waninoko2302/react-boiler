@@ -93,6 +93,7 @@
     "reselect": "4.0.0",
     "sanitize.css": "8.0.0",
     "semantic-ui-react": "^1.0.0",
+    "spinner": "^0.3.4",
     "styled-components": "4.2.0"
   },
   "devDependencies": {

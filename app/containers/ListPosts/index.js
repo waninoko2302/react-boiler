@@ -18,7 +18,9 @@ function ListPosts({ getListPost, posts }) {
   }, []);
 
   let xPostItem = [];
-  xPostItem = posts.map((post, i) => <PostItem index={i} post={post} />);
+  xPostItem = posts.map((post, i) => (
+    <PostItem key={post.id} index={i} post={post} />
+  ));
 
   return (
     <div>
@@ -28,7 +30,7 @@ function ListPosts({ getListPost, posts }) {
         </Button>
       </AddButton>
       <FormAddEditPost show={modalShow} onHide={() => setModalShow(false)} />
-      <Table celled key={posts.id}>
+      <Table celled>
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell>STT</Table.HeaderCell>

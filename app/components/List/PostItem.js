@@ -9,7 +9,7 @@ import FormAddEditPost from '../AddEditPost/FormAddEditPost';
 function PostItem(props) {
   const [modalShow, setModalShow] = useState(false);
   const item = props.post;
-
+  // console.log(item)
   const handleDelete = async () => {
     props.deleteItemPost(item);
   };

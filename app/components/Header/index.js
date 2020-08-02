@@ -10,6 +10,7 @@ function Footer() {
   return (
     <Wrapper>
       <A>
+        {/* dsdadsada */}
         <FormattedMessage {...messages.licenseMessage} />
       </A>
       <LocaleToggle />
